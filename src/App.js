@@ -4,6 +4,7 @@ import AdminProfile from "./Components/Home/AdminHome/AdminProfile";
 import Profile from "./Components/Home/EmployeHome/EmployeProfile";
 import Login from "./Components/Login/Login";
 import CreateProfile from "./Components/Login/CreateProfiles/CreateProfile";
+import Appbar from "./Appbar";
 
 const App = () => {
   const state = useSelector((state) => {
@@ -12,7 +13,7 @@ const App = () => {
 
   return (
     <div>
-      {state.loginBoolean ? (
+      {/* {state.loginBoolean ? (
         state.admin ? (
           <AdminProfile />
         ) : state.isProfileAvailable ? (
@@ -22,7 +23,8 @@ const App = () => {
         )
       ) : (
         <Login />
-      )}
+      )} */}
+      <Appbar />
     </div>
   );
 };

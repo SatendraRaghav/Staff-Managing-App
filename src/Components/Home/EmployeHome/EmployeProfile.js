@@ -57,8 +57,15 @@ const Profile = () => {
     );
     dispatch(setProfileObj(state.emptyProfile));
   };
-  const editHandler = () => {
+  const editHandler = async(id) => {
+    
+    await axios.delete(`http://127.0.0.1:3002/profile/${id}`);
+    const newProfileEntries = state.profileEntries.filter((elem) => {
+      return elem.id != id;
+    });
+    dispatch(setProfileEntries(newProfileEntries));
     dispatch(setIsProfileAvailable(false));
+
   };
 
   return (
@@ -69,7 +76,6 @@ const Profile = () => {
             <PersonIcon
             color="success"
               sx={{
-                
                 height: 179,
                 width: 179,
               }}
@@ -108,7 +114,7 @@ const Profile = () => {
           orientation="vertical"
           sx={{ position: "absolute", top: "85px", right: "15px" }}
         >
-          <ToggleButton onClick={editHandler} value="edit" aria-label="edit">
+          <ToggleButton onClick={()=>editHandler(state.employe.id)} value="edit" aria-label="edit">
             <EditIcon color="secondary" />
           </ToggleButton>
           <ToggleButton

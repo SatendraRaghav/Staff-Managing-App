@@ -35,6 +35,7 @@ const CardOne = ({ changeHandler, initial,error }) => {
           <InputField
             size="small"
             label="First Name"
+            width={"100%"}
             name="fName"
             error={error.fName}
             value={initial.fName}

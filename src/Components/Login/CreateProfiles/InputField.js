@@ -12,7 +12,6 @@ const InputField = (props) => {
   return (
     <div>
       <TextField
-    
         size="small"
         label={label}
         name={name}

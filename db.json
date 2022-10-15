@@ -4,7 +4,166 @@
       "id": 1,
       "email": "Admin@gmail.com",
       "password": "Admin"
+    },
+    {
+      "email": "Chetna@gmail.com",
+      "password": "Chetu",
+      "id": 2
+    },
+    {
+      "email": "Dig@ggg",
+      "password": "mmmdd",
+      "id": 3
+    },
+    {
+      "email": "Rgg@ff",
+      "password": "Ggggg",
+      "id": 4
+    },
+    {
+      "email": "dggfg@dvv",
+      "password": "gdbdbbd",
+      "id": 5
+    },
+    {
+      "email": "Satendra@gnail.com",
+      "password": "Sate",
+      "id": 6
+    },
+    {
+      "email": "Raghav@bbb",
+      "password": "nnnnn",
+      "id": 7
     }
   ],
-  "profile": []
+  "profile": [
+    {
+      "fName": "Satendra",
+      "lName": "Raghav",
+      "designation": "Front End Developer",
+      "dob": "2001-02-01",
+      "gender": "Male",
+      "phoneNumber": "7217602208",
+      "address": "CHANDAUS",
+      "city": "Aligarh",
+      "state": "UttarPradesh",
+      "zipCode": "202132",
+      "country": "Indian",
+      "email": "Satendra@gmail.com",
+      "password": "Raghav",
+      "id": 1
+    },
+    {
+      "fName": "Chetna",
+      "lName": "Rana",
+      "designation": "Production Engineer",
+      "dob": "1999-03-07",
+      "gender": "Female",
+      "phoneNumber": "6378095036",
+      "address": "Aligarh",
+      "city": "Aligarh",
+      "state": "U.P",
+      "zipCode": "2333",
+      "country": "Indian",
+      "email": "Chetna@gmail.com",
+      "password": "Chetu",
+      "id": 2
+    },
+    {
+      "fName": "Digvijay",
+      "lName": "Singh",
+      "designation": "Full Stack Web Developer",
+      "dob": "1997-02-05",
+      "gender": "Male",
+      "phoneNumber": "45875222222",
+      "address": "a",
+      "city": "a",
+      "state": "a",
+      "zipCode": "7",
+      "country": "Indian",
+      "email": "Dig@ggg",
+      "password": "mmmdd",
+      "id": 3
+    },
+    {
+      "fName": "Tom",
+      "lName": "Crum",
+      "designation": "Machine Operator",
+      "dob": "2022-08-17",
+      "gender": "Male",
+      "phoneNumber": "12222222222222",
+      "address": "s",
+      "city": "d",
+      "state": "d",
+      "zipCode": "1",
+      "country": "American",
+      "email": "Rgg@ff",
+      "password": "Ggggg",
+      "id": 4
+    },
+    {
+      "fName": "Satendra",
+      "lName": "Raghav",
+      "designation": "Front End Developer",
+      "dob": "2022-09-14",
+      "gender": "Male",
+      "phoneNumber": "72176022051",
+      "address": "dgghd",
+      "city": "aligarh",
+      "state": "UP",
+      "zipCode": "202132",
+      "country": "India",
+      "email": "Satendra@gnail.com",
+      "password": "Sate",
+      "id": 5
+    },
+    {
+      "fName": "Jitendra",
+      "lName": "Raghav",
+      "designation": "Front End Developer",
+      "dob": "2022-09-14",
+      "gender": "Male",
+      "phoneNumber": "72176022051",
+      "address": "dgghd",
+      "city": "aligarh",
+      "state": "UP",
+      "zipCode": "202132",
+      "country": "India",
+      "email": "Satendra@gnail.com",
+      "password": "Sate",
+      "id": 6
+    },
+    {
+      "fName": "Jitendra",
+      "lName": "Raghav",
+      "designation": "Front End Developer",
+      "dob": "2022-09-14",
+      "gender": "Male",
+      "phoneNumber": "72176022051",
+      "address": "dgghd",
+      "city": "aligarh",
+      "state": "UP",
+      "zipCode": "202132",
+      "country": "India",
+      "email": "Satendra@gnail.com",
+      "password": "Sate",
+      "id": 7
+    },
+    {
+      "fName": "Pankaj",
+      "lName": "Shukla",
+      "designation": "CEO",
+      "dob": "2022-08-31",
+      "gender": "Male",
+      "phoneNumber": "5555555555555",
+      "address": "b",
+      "city": "we",
+      "state": "de",
+      "zipCode": "202132",
+      "country": "bfbbd",
+      "email": "Raghav@bbb",
+      "password": "nnnnn",
+      "id": 8
+    }
+  ]
 }
